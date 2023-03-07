@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0px;
+}
+
+.lista-item{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.img{
+    width: 35%;
+}
+
+.valorant-logo{
+    width: 10%;
+}
