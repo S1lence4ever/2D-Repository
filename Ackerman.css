@@ -3,23 +3,100 @@
     padding: 0;
 }
 
-header{
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     background-color: black;
+    color: white;
+}
+
+#texto{
+    margin-left: 20px;
+}
+
+#header{
+    background-color:black; 
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: 12px 0px;
+    padding: 10px 0px;
 }
 
-.lista-item{
+#lista-item{
+    padding: 10px;
+}
+
+#valorant-logo{
+    width: 10%;
+}
+
+#corposite{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+#corposite #ascentbackground{
+    width: 100%;
+}
+
+#button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#fazerlogin{
+    position: absolute;
+    top: 48%;
+    left: 47%;
+    transition: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+#valorant{
+    font-size: 100px;
+    position: absolute;
+    top: 56%;
+    left: 32%;
+    transition: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+#criarconta{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    transition: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#ascentbackground{
+    position: relative;
+    width: 100%;
+    margin: 0%
+}
+
+
+#lista-item{
     display: inline-block;
     margin: 0 20px;
+    font-size: 16px;
 }
 
-.img{
+#img{
     width: 35%;
 }
 
-.valorant-logo{
-    width: 10%;
+#gmailicon{
+    width: 1.5%;
+    margin-right: 5px;
 }
