@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:DINNextW05-Bold,arial,georgia,sans-serif;
     font-size: 16px;
     background-color: black;
     color: white;
@@ -84,7 +84,6 @@ a{
     width: 100%;
     margin: 0%
 }
-
 
 #lista-item{
     display:inline-block;
