@@ -1,0 +1,26 @@
+header{
+    background-color: black;    
+    color: white;
+}
+
+.primeiro-paragrafo{
+    background-color: blueviolet;
+    color: white;
+}
+
+.segundo-paragrafo{
+    font-size: 60px;
+}
+
+ul{
+    display: inline-block;
+    display: flex;
+}
+
+li{
+    padding: 15px;
+}
+
+a{
+    text-align: center;
+}
